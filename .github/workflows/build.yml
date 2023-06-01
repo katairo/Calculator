@@ -18,11 +18,10 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: calculator-artifacts
-        path: C:\Users\wgxnl\Desktop\AZERBAIJAN\dist
+    - uses: actions/upload-artifact@v3
+        with:
+          name: debug-apk
+          path: C:\Users\wgxnl\Desktop\AZERBAIJAN\dist
 
       
 
