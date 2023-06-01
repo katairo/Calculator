@@ -22,5 +22,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: calculator-artifacts
-        path: path/to/artifacts
+        path: C:\Users\wgxnl\Desktop\AZERBAIJAN\dist
 
