@@ -18,12 +18,7 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Archive build artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: calculator-artifacts
-        path: C:\Users\wgxnl\Desktop\AZERBAIJAN\dist
-        if-no-files-found: error
+
 
       
 
